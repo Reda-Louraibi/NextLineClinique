@@ -362,3 +362,37 @@ img {
   font-size: 18px;
   font-weight: 400;
 }
+
+/* Stats section */
+.stats-section {
+  padding: 96px 0;
+  background-color: #ffffff;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.stat-item {
+  text-align: center;
+  flex: 1;
+  min-width: 200px;
+}
+
+.stat-number {
+  font-family: 'IBM Plex Sans', serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #3498db;
+  margin-bottom: 6px;
+}
+
+.stat-label {
+  font-size: 18px;
+  font-weight: 400;
+  color: #313131;
+}
