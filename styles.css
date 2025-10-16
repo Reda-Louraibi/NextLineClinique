@@ -396,3 +396,13 @@ img {
   font-weight: 400;
   color: #313131;
 }
+
+/* services section */
+.section2-description{
+  display: flex;
+  justify-content: space-between;
+  gap: 200px;
+}
+.section2-description p{
+  text-align: end;
+ }
