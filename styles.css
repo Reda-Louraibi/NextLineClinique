@@ -913,3 +913,137 @@ img {
     gap: 10px;
     margin-top: 10px;
 }
+.footer {
+  background-color: #f5f8fa;
+  padding: 66px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.footer-logo {
+  width: 172px;
+  height: 172px;
+  margin-bottom: 78px;
+}
+
+.newsletter {
+  margin-bottom: 82px;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.newsletter-input {
+  flex: 1;
+  min-width: 200px;
+  padding: 16px 24px;
+  border: 1px solid #3498db;
+  border-radius: 28px;
+  font-size: 16px;
+  color: #969696;
+}
+
+.newsletter-btn {
+  padding: 16px 30px;
+  border: 1px solid #3498db;
+  border-radius: 28px;
+  background-color: transparent;
+  color: #3498db;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.newsletter-text {
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #2677bc;
+}
+
+.social-links {
+  display: flex;
+  gap: 24px;
+}
+
+.social-link {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-right {
+  flex: 1;
+  min-width: 300px;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 150px;
+}
+
+.footer-column h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2677bc;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 14px;
+}
+
+.footer-links a {
+  color: #63bbe9;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.location-section h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2677bc;
+  margin-bottom: 12px;
+}
+
+.location-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: #2677bc;
+  margin-bottom: 10px;
+}
+
+.location-address {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #969696;
+}
