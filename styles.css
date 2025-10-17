@@ -450,3 +450,50 @@ img {
     cursor: pointer;
     height: fit-content;
 }
+
+.mask-background {
+    background-image: url("images/MASK.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat ;
+
+    width: auto;
+    height: 100vh;
+    padding-top: 125px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+ .pricing-section {
+  padding: 130px 0;
+  background-color: #ffffff;
+}
+.appointment-btn{
+
+           display: inline-flex;
+            align-items: center;
+            gap: 15px;
+            padding: 14px 24px;
+            background: linear-gradient(135deg, #4A90E2 0%, #5BA3E8 100%);
+            background-image: url(images/img_mask_group.png);
+            border: none;
+            border-radius: 35px;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(74, 144, 226, 0.3)
+            }
+
+
+.pricing-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 48px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
