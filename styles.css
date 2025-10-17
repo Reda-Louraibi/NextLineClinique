@@ -62,7 +62,6 @@ img {
   font-size: 18px;
   font-weight: 500;
   line-height: 27px;
-  transition: color 0.3s ease;
 }
 
 .search-container{
@@ -524,6 +523,8 @@ img {
 
 
 
+
+
 .pricing-header p {
     color: #5B5B5B;
     position: relative;
@@ -585,3 +586,330 @@ img {
     align-items: center;
 }
 
+.doctors-section {
+  padding: 130px 0;
+  background-color: #ffffff;
+}
+
+.doctors-header {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.doctors-title {
+  font-family: 'IBM Plex Sans', serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #3498db;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.doctors-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 70px;
+}
+
+.doctor-card {
+  flex: 1 1 300px;
+  background-color: #f5f8fa;
+  border-radius: 30px;
+  padding: 32px 30px;
+  text-align: center;
+}
+
+
+
+.doctor-image-container {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.doctor-image {
+  width: 194px;
+  height: 198px;
+  border-radius: 96px;
+  margin: 0 auto;
+  display: block;
+}
+
+.doctor-name {
+  font-family: 'IBM Plex Sans', serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #2677bc;
+  margin-bottom: 6px;
+}
+
+.doctor-specialty {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ff6f61;
+  margin-bottom: 14px;
+}
+
+.doctor-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #5a5a5a;
+}
+/* Booking Section */
+.booking-section {
+    background: linear-gradient(135deg, #2c5f8d 0%, #4a8bc2 100%);
+    padding: 100px 0;
+}
+
+.booking-container {
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 60px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.booking-badge {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #5ee088;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.booking-title {
+    font-family: 'IBM Plex Sans', serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #3498db;
+    margin-bottom: 50px;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.booking-form .form-row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.booking-form .form-group {
+    flex: 1;
+    min-width: 280px;
+}
+
+.booking-form label {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #313131;
+    margin-bottom: 10px;
+}
+
+.booking-form .form-input {
+    width: 100%;
+    padding: 16px;
+    border: 2px solid #e1e1e1;
+    border-radius: 14px;
+    font-size: 16px;
+    color: #313131;
+    background-color: #ffffff;
+}
+
+.booking-form .form-input::placeholder {
+    color: #969696;
+}
+
+.booking-form .form-input:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.form-select {
+    width: 100%;
+    padding: 16px;
+    border: 2px solid #e1e1e1;
+    border-radius: 14px;
+    font-size: 16px;
+    color: #969696;
+    background-color: #ffffff;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23969696' d='M1.41 0L6 4.59L10.59 0L12 1.41l-6 6l-6-6z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    cursor: pointer;
+}
+
+.form-select:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.form-textarea {
+    width: 100%;
+    padding: 16px;
+    border: 2px solid #e1e1e1;
+    border-radius: 14px;
+    font-size: 16px;
+    color: #313131;
+    background-color: #ffffff;
+    font-family: 'Heebo', Arial, sans-serif;
+    resize: vertical;
+    min-height: 120px;
+}
+
+.form-textarea::placeholder {
+    color: #969696;
+}
+
+.form-textarea:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 18px;
+    background: linear-gradient(135deg, #ff6f61 0%, #ff8a7d 100%);
+    border: none;
+    border-radius: 14px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+/* Booking Section */
+.booking-section {
+    padding: 100px 0;
+    background-image: url(images/img_.png);
+}
+
+.booking-container {
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 60px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.booking-badge {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #5ee088;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.booking-title {
+    font-family: 'IBM Plex Sans', serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #3498db;
+    margin-bottom: 50px;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.booking-form .form-row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.booking-form .form-group {
+    flex: 1;
+    min-width: 280px;
+}
+
+.booking-form label {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #313131;
+    margin-bottom: 10px;
+}
+
+.booking-form .form-input {
+    width: 100%;
+    padding: 16px;
+    border: 2px solid #e1e1e1;
+    border-radius: 14px;
+    font-size: 16px;
+    color: #313131;
+    background-color: #ffffff;
+}
+
+.booking-form .form-input::placeholder {
+    color: #969696;
+}
+
+.booking-form .form-input:focus {
+    outline: none;
+    border-color: #e1e1e1;
+}
+
+.form-textarea {
+    width: 100%;
+    padding: 16px;
+    border: 2px solid #e1e1e1;
+    border-radius: 14px;
+    font-size: 16px;
+    color: #313131;
+    background-color: #ffffff;
+    font-family: 'Heebo', Arial, sans-serif;
+    resize: vertical;
+    min-height: 120px;
+}
+
+.form-textarea::placeholder {
+    color: #969696;
+}
+
+.form-textarea:focus {
+    outline: none;
+    border-color: #e1e1e1;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 18px;
+    background: linear-gradient(135deg, #ff6f61 0%, #ff8a7d 100%);
+    border: none;
+    border-radius: 14px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
